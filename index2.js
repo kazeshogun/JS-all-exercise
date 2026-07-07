@@ -295,7 +295,10 @@ console.log (countUp(5))
 // Write `countDown(n)` that RETURNS "n n-1 ... 1 Go!" using a WHILE loop (not for).
 // Hint: let i = n; while (i >= 1) { ...; i--; } then add "Go!".
 // your code here
-
+  function countdown(n)
+  {
+    for (let)
+  }
 // console.log(countDown(3));
 // TEST 1:  countDown(3)  ->  "3 2 1 Go!"
 // TEST 2:  countDown(1)  ->  "1 Go!"
@@ -1261,7 +1264,7 @@ console.log(withTax(100))
 // Write `countUp3(start)`. Set let c = start, then c++ three times, RETURN c.
 // your code here
 function countUp3(start){
-  let c = 0;
+  let c = start;
   c++;
   c++;
   return ++c;
@@ -1275,7 +1278,9 @@ console.log (countUp3(7))
 // ----- 7. Average of two -----
 // Write `avgTwo(a, b)` that RETURNS the average of a and b.
 // your code here
+function avgTwo(a,b){
 
+}
 // console.log(avgTwo(4, 8));
 // TEST 1:  avgTwo(4, 8)    ->  6
 // TEST 2:  avgTwo(10, 20)  ->  15

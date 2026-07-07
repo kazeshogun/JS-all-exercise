@@ -449,3 +449,10 @@ let guessNum = 1;
 // TEST 1:  secretNum = 4, guessNum = 1  ->  Trying 1 / Trying 2 / Trying 3, then  Found it: 4
 // TEST 2:  secretNum = 2, guessNum = 1  ->  Trying 1, then  Found it: 2
 // TEST 3:  secretNum = 1, guessNum = 1  ->  (no Trying), then  Found it: 1
+
+
+
+
+
+
+
