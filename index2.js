@@ -295,10 +295,6 @@ console.log (countUp(5))
 // Write `countDown(n)` that RETURNS "n n-1 ... 1 Go!" using a WHILE loop (not for).
 // Hint: let i = n; while (i >= 1) { ...; i--; } then add "Go!".
 // your code here
-  function countdown(n)
-  {
-    for (let)
-  }
 // console.log(countDown(3));
 // TEST 1:  countDown(3)  ->  "3 2 1 Go!"
 // TEST 2:  countDown(1)  ->  "1 Go!"
@@ -1279,8 +1275,11 @@ console.log (countUp3(7))
 // Write `avgTwo(a, b)` that RETURNS the average of a and b.
 // your code here
 function avgTwo(a,b){
-
+let average = a+b;
+return (a+b)/2
 }
+console.log(avgTwo(4, 8));
+
 // console.log(avgTwo(4, 8));
 // TEST 1:  avgTwo(4, 8)    ->  6
 // TEST 2:  avgTwo(10, 20)  ->  15
@@ -1290,7 +1289,12 @@ function avgTwo(a,b){
 // Write `doubleArea(w, h)`. Set let area = w * h, then reassign
 // area = area * 2, RETURN area.
 // your code here
-
+function doubleArea(w, h){
+  let area = w * h;
+  area = area * 2;
+  return area;
+}
+console.log(doubleArea(3, 4))
 // console.log(doubleArea(3, 4));
 // TEST 1:  doubleArea(3, 4)  ->  24
 // TEST 2:  doubleArea(5, 2)  ->  20
